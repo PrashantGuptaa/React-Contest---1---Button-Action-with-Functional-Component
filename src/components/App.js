@@ -9,7 +9,8 @@ function App() {
   }
   return (
     <div id="main">
-      <button onClick = {handleclick}></button>
+      <button id = "click" onClick = {handleclick}></button>
+      <p>{sol}</p>
     </div>
   );
 }
